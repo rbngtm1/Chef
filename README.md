@@ -28,3 +28,6 @@
   * Data bags are containers for information about your infrastructures that are not associated with the node.
   * Data bags is a global variable that is stored as json data, and is accessible via a chef server. Because the data bag is on the Chef server, it acts as a shared resource which Chef clients can reference.
   * Data bags can also be used to encrypt sensitive information with a shared key; anyone with the shared key can decrypt the data in the data bag. This provides one method to keep secrets off of nodes.
+  
+#### Chef Vault
+  * Vault allows the secure distribution of secrets as an alternative to encrypted data bags. Vault allows limiting which users and nodes have access to secrets.
