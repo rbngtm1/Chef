@@ -20,5 +20,5 @@
     * chef-client does the actual configuration
  
  
- WORKSTATION(.Chef/) ----->> uploadingdata using knife ----->> Chef-server
- Chef-server----------->> Privatekey (.pem and knife.rb file) ---------->> WORKSTATION
+ #### WORKSTATION(.Chef/) ----->> uploadingdata using knife ----->> Chef-server
+ #### Chef-server----------->> Privatekey (.pem and knife.rb file) ---------->> WORKSTATION
